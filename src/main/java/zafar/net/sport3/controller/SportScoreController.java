@@ -23,4 +23,6 @@ public class SportScoreController {
     public ResponseEntity<SportScore> saveScore(@RequestBody SportScore score) {
         return ResponseEntity.ok(service.saveScore(score));
     }
+    
+
 }
